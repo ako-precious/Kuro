@@ -1,6 +1,10 @@
 To make this app work you have to install npm and composer
 to install both you have to use the following command npm install -- 
-and composer install in your terminal 
+and composer install in your terminal and get an app key 
+
+php artisan key:generate is a command that sets the APP_KEY value in your .env file. By default, this command is run following a composer create-project laravel/laravel command. If you use a version control system like git to manage your project for development, calling git push ... will push a copy of your Laravel project to wherever it is going, but will not include your .env file. Therefore, if someone clones your project using git clone ... they will have to manually enter php artisan key:generate for their app to function correctly.
+
+So, TL:DR the only time you need to call php artisan key:generate is following a clone of a pre-created Laravel project.
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>

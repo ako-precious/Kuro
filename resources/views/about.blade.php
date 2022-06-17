@@ -86,13 +86,13 @@ $Page = 'about';
             <div class="container mx-auto md:px-12 py-16">
     
                 <div
-                    class=" w-full my-8 flex flex-row relative justify-between items-center flex-wrap  dark:bg-gray-800">
-                    <div class="md:absolute relative md:w-6/12  px-8 py-12  absolute w-full mx-auto">
+                    class=" w-full my-8 flex flex-row relative  justify-between items-center flex-wrap  dark:bg-gray-800">
+                    <div class="md:absolute relative md:w-6/12 h-96 px-8 py-12  absolute w-full mx-auto">
 
                         <div class=" rounded shadow">
                             {{-- style="height: 100%;width: 100%; top: 50%; left: 50%;  transform: translate(-50%, -50%);"> --}}
                             <img src="{{ asset('images/img1.jpg') }}"
-                                class="rounded shadow h-96 img-responsive w-full h-full" alt="">
+                                class="rounded shadow  img-responsive w-full h-full" alt="">
                         </div>
                     </div>
     
